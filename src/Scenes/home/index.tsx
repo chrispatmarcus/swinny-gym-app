@@ -8,6 +8,7 @@ import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
+import ImageSlider from "@/shared/ImageSlider";
 interface Props {
   setSelectedPage: (value: SelectedPage) => void;
 }
@@ -43,10 +44,10 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Swinnygym is excited to have you join our fitness family!
-              Whether you're here to crush your goals, try a fun class, or just
-              get moving, you've come to the right place. Our amazing team is
-              here to support and motivate you every step of the way. Let’s get
+              Swinnygym is excited to have you join our fitness family! Whether
+              you're here to crush your goals, try a fun class, or just get
+              moving, you've come to the right place. Our amazing team is here
+              to support and motivate you every step of the way. Let’s get
               started on this journey to a healthier, stronger you.Remember,
               every workout counts—let’s make them exciting together! Your
               fitness journey begins now!
@@ -79,9 +80,12 @@ const Home = ({ setSelectedPage }: Props) => {
           </motion.div>
         </div>
         {/* IMAGE */}
-        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
+        {/* <div className="flex bg-secondary-500 basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img alt="home-pageGraphic" src={HomePageGraphic} />
-        </div>
+          <ImageSlider />
+        </div> */}
+        <ImageSlider/>
+        
       </motion.div>
       {/* SPONSORS */}
       {isAboveMediumScreens && (
