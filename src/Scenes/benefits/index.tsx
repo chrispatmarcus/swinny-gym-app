@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "state of the art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermmentum in a in lectus plaaenrjere. erjerjere et",
+      "Include cutting edge exercise equipment, such as advanced cardio machines, free weights,and strenght.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "state of the art Facilities",
+    title: "state of luxury",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermmentum in a in lectus plaaenrjere. erjerjere et",
+      "luxurious locker rooms, saunas, steam rooms, and recovery zones with massage chairs or crotherapy",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermmentum in a in lectus plaaenrjere. erjerjere et",
+      "We offer a variety of group fitness classes, like yoga,spinning and HIIT led by certified trainers",
   },
 ];
 
@@ -118,22 +118,22 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 }}
               >
                 <p className="my-5">
-                  ajskkkkkk asjaksjakjska ajsnanjnajsajnsajs jasnasajsnasajsn
-                  asjansjansjansjan snajkajska skajskajskjaskjaksjakjk
-                  jasaskajskajska jskaskjaskjaksa asjaksjaksjakjska
-                  asjakjsakjskj asjaksjakjskaj ajsakjskajska asjkajskajskajs
-                  jskajjaks sjasjakjsa sajskajskaj skajskajsk aksjaska
-                  sakjsakjskajska jskajskajskajksja kjskajskajskaj
-                  ajskajskajskajska sjakjsakjskj
+                  Every year, millions of people join gyms worldwide, motivated
+                  by the desire to improve their health, fitness, and overall
+                  well-being. Whether it's to build strenght, lose weight, or
+                  simply stay active, gyms offer a supportive environment where
+                  individuals can persue thier goals with access to top-notch
+                  equipment, expert guidance and a community of like-minded
+                  individuals.
                 </p>
                 <p className="mb-5">
-                  ajskkkkkk asjaksjakjska ajsnanjnajsajnsajs jasnasajsnasajsn
-                  asjansjansjansjan snajkajska skajskajskjaskjaksjakjk
-                  jasaskajskajska jskaskjaskjaksa asjaksjaksjakjska
-                  asjakjsakjskj asjaksjakjskaj ajsakjskajska asjkajskajskajs
-                  jskajjaks sjasjakjsa sajskajskaj skajskajsk aksjaska
-                  sakjsakjskajska jskajskajskajksja kjskajskajskaj
-                  ajskajskajskajska sjakjsakjskj
+                  driven by the desire to transform their lives through
+                  fitness.Millions of people from beginners looking to start
+                  thier health journey to second athletes pushing their limits,
+                  swinny gym cater to all levels of experience. The growing
+                  popularity of gym memberships highlights a collective
+                  commitment to not just physical health, but also mental
+                  well-being.
                 </p>
               </motion.div>
               {/* BUTTON */}

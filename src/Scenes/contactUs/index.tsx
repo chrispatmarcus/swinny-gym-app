@@ -45,11 +45,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            sjdkjsdkjskd sjdksdkjskd sdjskjdsk jdksjdk djksjdks djksjdk jdskjd
-            djskjdkas jdksjdk jdskjdks djskadk sjdkjdks sjdksjdk sdjksjdks
-            sjdskjdks sjdksjdk sjksjdk.jdsjdksj sdjsjd.nulladsd akmdksksjdksjdk
-            sdksjdks kdjskdjsk skdjskjdks skdksjdks sdjskdjks sdjksjdksj
-            ksjdksjdk.
+            Whether you’re here to lose weight, build strength, or simply
+            maintain a healthy lifestyle, Swinny Gym has the right class for
+            you. Join Now And Never Regret.
           </p>
         </motion.div>
         {/* FORM AND IMAGE */}

@@ -43,7 +43,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Swinny Gym.We're excited to have you join our fitness family!
+              Swinnygym is excited to have you join our fitness family!
               Whether you're here to crush your goals, try a fun class, or just
               get moving, you've come to the right place. Our amazing team is
               here to support and motivate you every step of the way. Let’s get

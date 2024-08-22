@@ -14,24 +14,25 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adios llama laboris nisi ut aliquip ex ea commodo consequat",
+      "This low-impact workout emphasizes proper posture and alignment, making it suitable for all fitness levels.",
     image: image1,
   },
   {
     name: "Yoga Classes",
-    // description:"Lorem ipsum dolor sit amet, consectetur adios llama laboris nisi ut aliquip ex ea commodo consequat",
+    description:
+      "Find your balance with our various yoga classes, including Hatha, Vinyasa, and Yin Yoga. ",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adios llama laboris nisi ut aliquip ex ea commodo consequat",
+      "Push your limits with our HIIT classes, consisting of short bursts of intense exercise followed by periods of rest.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adios llama laboris nisi ut aliquip ex ea commodo consequat",
+      "Join us for a fun and energetic dance workout that combines Latin and international music with easy-to-follow dance moves",
     image: image4,
   },
   {
@@ -71,12 +72,11 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              dksjksjksjdksj sdskjdksjdk dskdksjdksd kjdksjdks kjak djkjdak
-              ajakjsakj ajdkjakd akjdakjd akdakjdakjd adkajdkan jdkajdkajd
-              akjdkajdka adkajdkajd adakjdakjd adjkajdkaj jdakdakjdka
-              akdkajdkajdk adajkjdak ghhhhhhhhhhhhhhhhhhhhhhhhc hghhgh ghghghgh
-              hghghghgh hghghghgh vvghghg ghghghgh hghghghgh hghghghghv
-              ghghghghghigghil ygygyihvivffvtfkhv ggftcfgygyg gyygyftfyy
+              At Swinny Gym, we believe in providing a holistic approach to
+              fitness. Our diverse range of classes are designed to cater to all
+              fitness levels, whether you’re a beginner to start your fitness or
+              an experienced athlete seeking to challenge yourself. Explore our
+              exciting offerings and find the perfect fit for your goals!
             </p>
           </div>
         </motion.div>
